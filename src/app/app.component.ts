@@ -1,3 +1,5 @@
+import { interpret } from 'xstate';
+
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,4 +9,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'fsm-angular-poc';
+
+  constructor(){
+
+  }
 }
